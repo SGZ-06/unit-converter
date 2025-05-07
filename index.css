@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #1c1c1c;
+}
+
+h2,
+h4,
+p {
+  margin: 0;
+}
+
+#app-container {
+  width: 450px;
+  margin: 50px auto;
+}
+
+#app-header {
+  background-color: #6943ff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+  padding: 10px 0;
+}
+
+#app-header input {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  width: 100px;
+  background: none;
+  border: 2px solid #b295ff;
+  border-radius: 3px;
+}
+
+#app-header button {
+  font-family: inherit;
+  width: 100px;
+  padding: 8px 0px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+}
+
+#app-body {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 320px;
+  padding: 0px 20px;
+  gap: 15px;
+}
+
+.app-converter {
+  text-align: center;
+  background-color: #fff;
+  height: 50px;
+  border-radius: 3px;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.converter-title {
+  color: #5a537b;
+}
+
+.converter-info {
+  color: #353535;
+  font-size: 13px;
+  height: 20px;
+}
